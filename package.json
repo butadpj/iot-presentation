@@ -9,8 +9,16 @@
   },
   "dependencies": {
     "@slidev/cli": "^0.50.0-beta.4",
+    "@slidev/theme-apple-basic": "^0.25.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "vue": "^3.5.12"
+    "chart.js": "^4.4.5",
+    "firebase": "^10.14.1",
+    "slidev-theme-eloc": "^1.0.2",
+    "vue": "^3.5.12",
+    "vue-chartjs": "^5.3.1"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.48.1"
   }
 }
