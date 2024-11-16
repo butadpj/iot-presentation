@@ -48,7 +48,7 @@ const fetchData = async () => {
 const startConnection = async () => {
   if (!websocket) {
     console.log("TOKEN HERE: ", token);
-    websocket = new WebSocket(`ws://localhost:3000`);
+    websocket = new WebSocket(`ws://localhost:3000?token=${token}`);
 
     websocket.onopen = () => {
       console.log("Connected to WebSocket");
